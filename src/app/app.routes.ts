@@ -15,5 +15,3 @@ export const appRoutes: Routes = [
     loadChildren: ()=> import('./modules/dashboard/dashboard.module').then(m => m.DashboardModule);
   }
 ];
-
-k
